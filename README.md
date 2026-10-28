@@ -33,7 +33,7 @@ Code licence: see [`LICENSE`](LICENSE).
 | Day | Theme | Map | Status |
 |----:|-------|-----|--------|
 | 2 | Lines | Jet stream — 250 hPa isotach field + streamlines | built |
-| 20 | Hexagons | ECMWF 0.1° vs MeteoSwiss 1 km over Switzerland, H3 hexbins | data proven, figure in progress |
+| 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | built |
 | 22 | Projections | One field, three projections | planned |
 | 26 | Water | Significant wave height, N. Atlantic | planned |
 | 4 | Clusters | ENS members clustered by 500 hPa pattern | planned |

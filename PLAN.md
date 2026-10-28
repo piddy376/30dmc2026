@@ -21,17 +21,15 @@ eastern Atlantic. Palette is luminance-monotonic, so it stays legible for colour
 viewers and in greyscale; `cividis` is offered as a by-construction-safe alternative.
 `DATE=0` re-runs live on the day.
 
-## Day 20 · Hexagons — the impact of resolution  (data proven)
-Two panels of the same area, side by side, sharing one colour scale:
-- **Left:** ECMWF IFS 0.1° (~9 km) 2 m temperature, binned to H3 hexagons (res 5).
-- **Right:** MeteoSwiss ICON-CH1 1 km, same parameter, binned to finer H3 hexagons (res 8).
+## Day 20 · Hexagons — the impact of resolution  (built)
+`day20_hexagons.ipynb` → `day20_hexagons.png`. **Three grids**, coarse to fine:
+- **ECMWF 25 km** (0.25°, H3 res 4) · **ECMWF 9 km** (0.1°, H3 res 5) · **MeteoSwiss 1 km**
+  (ICON-CH1, H3 res 8) — 24 h total precipitation, all clipped to Switzerland, shared scale.
 
-The hexagon size encodes the model resolution; the 1 km panel resolves individual Alpine
-valleys the 0.1 ° panel cannot. Both must use the **same run and valid time**. Render the
-fine panel with a `PolyCollection` (~100 k hexagons).
-
-Open question: shared vs per-panel colour scale — leaning **shared**, for a fair comparison.
-MeteoSwiss ICON-CH1 is only published for the last ~24 h, so fetch it live on the day.
+Hexagon size mirrors the model grid; the 1 km panel resolves orographic rain the coarse
+grids smooth away (max precip 9 → 12 → 20 mm). City call-outs + a one-place bar chart.
+`YlGnBu` sequential (colourblind-safe), white background, ECMWF logo + attribution.
+ICON-CH1 caps at 33 h, so the window is ≤ 33 h (24 h used); fetched live via `ogd_api`.
 
 ## Day 22 · Projections
 One field (e.g. Z500) in Plate Carrée, Robinson and polar orthographic — the distortion
