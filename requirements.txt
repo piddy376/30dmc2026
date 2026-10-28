@@ -1,0 +1,8 @@
+earthkit-data
+ecmwf-opendata
+cfgrib
+xarray
+cartopy
+matplotlib
+scipy
+jupyterlab

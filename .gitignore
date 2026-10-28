@@ -1,0 +1,7 @@
+.venv/
+data/*.grib2
+data/*.idx
+*.idx
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
