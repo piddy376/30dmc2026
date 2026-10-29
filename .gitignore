@@ -1,5 +1,7 @@
 .venv/
 data/*.grib2
+data/*.nc
+data/*.download
 data/*.idx
 *.idx
 __pycache__/
@@ -7,3 +9,8 @@ __pycache__/
 .DS_Store
 explorations/
 assets/*.png
+!assets/ECMWF_Core_Logo_RGB.png
+!assets/ECMWF_Core_Logo_WHITE.png
+_build/
+.jupyter_cache/
+.gstack/
