@@ -25,6 +25,12 @@ jupyter lab
   Note: the client defaults to 0.25°; pass `resol="0p1"` for the 0.1° grid.
 - **MeteoSwiss Open Data** — ICON-CH1-EPS via [`meteodata-lab`](https://github.com/MeteoSwiss/meteodata-lab)
   (STAC API, `data.geo.admin.ch`). Open Government Data; attribute **MeteoSwiss** as source.
+- **DestinE Climate DT** (Days 3, 20) — Climate DT phase 2 via **Polytope**. Needs **approved
+  (upgraded) DestinE data access**, not just a basic [DestinE account](https://platform.destine.eu/),
+  so these days aren't reproducible on any laptop the way the open-data days are.
+  `© ECMWF / Destination Earth` (funded by the EU; implemented by ECMWF, ESA and EUMETSAT).
+- **nextGEMS IFS** (Days 14, 20) — cycle-3 `tco3999`, via the **Digital Earths Global Hackathon**
+  catalogue (**public, no account**). `© ECMWF`; nextGEMS funded by the EU (H2020, grant 101003470).
 - **ERA5 / ERA5-Land / ERA5-HEAT** (Days 3, 27, 28) — ECMWF reanalysis for the Copernicus Climate
   Change Service (C3S), via the CDS and as cloud-native Zarr (ARCO-ERA5, `gs://gcp-public-data-arco-era5`).
   *Contains modified Copernicus Climate Change Service information.*
@@ -43,18 +49,28 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 
 ## Days
 
-| Day | Theme | Map | Status |
-|----:|-------|-----|--------|
-| 2 | Lines | Jet stream — 250 hPa isotach field + streamlines | built |
-| 3 | Polygons | A Bulgarian November — rainfall by municipality + bivariate rain × temperature (ERA5-Land) | built |
-| 5 | Senses: Sight | "A forecast you can see" — IFS synthetic Meteosat-10 SEVIRI IR imagery (`type=ssd`), a six-day forecast (+ rolling GIF) | built |
-| 6 | Vintage | Today's MSLP as a mid-century surface-analysis chart | built |
-| 9 | Urban-rural | Hungary, the sunshine country — annual sunshine (CARPATCLIM) + rainfall (OMSZ HuClim), full national coverage + seasonal GIF | built |
-| 12 | Power | 100 m wind power density over the North Sea offshore-wind belt | built |
-| 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | built |
-| 22 | Projections | One 500 hPa height field on four projections | built |
-| 26 | Water | Total-column water vapour as an orthographic globe | built |
-| 27 | New tool | The Great Storm of 1987, live from ARCO-ERA5 cloud-native Zarr | built |
-| 28 | Senses: Feeling | The day the UK hit 40 °C, as UTCI "feels-like" (ERA5-HEAT) | built |
+| Day | Theme | Map | By |
+|----:|-------|-----|----|
+| 2 | Lines | Jet stream — 250 hPa isotach field + streamlines | EP |
+| 3 | Polygons | A Bulgarian November — rainfall by municipality + bivariate rain × temperature (ERA5-Land) | EP |
+| 3 | Polygons | Summer weather in Greece — the polygon *is* the Polytope query; DestinE Climate DT ⬦ | MA |
+| 5 | Senses: Sight | "A forecast you can see" — IFS synthetic Meteosat-10 SEVIRI IR imagery (`type=ssd`), a six-day forecast (+ rolling GIF) | EP |
+| 6 | Vintage | Today's MSLP as a mid-century surface-analysis chart | EP |
+| 6 | Vintage | The Night of the Great Flood — 31 Jan 1953 surface chart from the ERA5 back extension | MA |
+| 9 | Urban-rural | Hungary, the sunshine country — annual sunshine (CARPATCLIM) + rainfall (OMSZ HuClim), full national coverage + seasonal GIF | EP |
+| 12 | Power | 100 m wind power density over the North Sea offshore-wind belt | EP |
+| 14 | Borgesian map | One nextGEMS IFS (~2.8 km) field, six frames closing onto a single 3.2 km HEALPix cell | MA |
+| 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | EP |
+| 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
+| 22 | Projections | One 500 hPa height field on four projections | EP |
+| 26 | Water | Total-column water vapour as an orthographic globe | EP |
+| 27 | New tool | The Great Storm of 1987, live from ARCO-ERA5 cloud-native Zarr | EP |
+| 28 | Senses: Feeling | The day the UK hit 40 °C, as UTCI "feels-like" (ERA5-HEAT) | EP |
 
-See [`PLAN.md`](PLAN.md) for the brief on each day.
+⬦ = needs **approved (upgraded) DestinE data access** (not just a basic account); every other day
+runs on fully open data. See [`PLAN.md`](PLAN.md) for the brief on each day.
+
+## Contributors
+
+- **Emma Pidduck** — [LinkedIn](https://www.linkedin.com/in/emmapidduck/) (Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28)
+- **Matthias Aengenheyster** — [LinkedIn](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/) (Days 3, 6, 14, 20)

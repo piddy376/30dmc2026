@@ -6,6 +6,10 @@ Beautiful, reproducible weather maps built on **open data** — from ECMWF's glo
 Every map is a **self-contained Jupyter notebook**: method, code, output, data licence and
 tools in one place. Nothing to install beyond `pip`; nothing hidden.
 
+Most days run on **fully open data** — anyone can reproduce them. A few of Matthias's days
+pull the **DestinE Climate DT** through Polytope, which needs *approved (upgraded) DestinE data
+access*, not just a basic platform account; those days are marked **⬦ upgraded access** below.
+
 > ⚠️ **Just for fun — not an official ECMWF product.** Claude (Anthropic) helped build these
 > notebooks. They are **not** official ECMWF notebooks and are **not** supported by ECMWF — a
 > personal #30DayMapChallenge experiment to show how approachable open weather data has become.
@@ -17,19 +21,38 @@ tools in one place. Nothing to install beyond `pip`; nothing hidden.
 - **[Day 2 · Lines](day02_lines_jet)** — the jet stream as 250 hPa wind, drawn as flowing streamlines.
 - **[Day 3 · Polygons](day03_polygons)** — a Bulgarian November: rainfall by municipality, and a
   bivariate rain × temperature choropleth, from ERA5-Land.
+- **[Day 3 · Polygons — Summer weather in Greece](day03_polygons_polytope)** — *Matthias
+  Aengenheyster*. The polygon never downloads a grid: Greece goes into the request as 40 rings
+  and 923 vertices, and **Polytope** returns just the 3,211 **DestinE Climate DT** cells inside
+  it. Daytime maxima track altitude and ignore the sea; tropical nights track the coast — the
+  half that matters for heat-health. **⬦ upgraded access.**
 - **[Day 5 · Senses: Sight](day05_sight_ssd)** — how the *model* sees: the IFS rendered as a
   Meteosat-10 infrared image. What looks like a satellite photo is a six-day forecast — a **model
   product** (SEVIRI's spectral characteristics, but not the viewing geometry), a forecast tool, not a
   real observation. *(Operational ECMWF product; the sample here is shared one-off under CC-BY-4.0.)*
 - **[Day 6 · Vintage](day06_vintage)** — today's mean-sea-level pressure as a mid-century surface
   analysis chart: sepia isobars, hand-marked highs and lows, on aged paper.
+- **[Day 6 · Vintage — The Night of the Great Flood](day06_vintage_1953)** — *Matthias
+  Aengenheyster*. 31 January 1953, 18 UTC, drawn from the **ERA5 back extension** as a period
+  surface chart. Fronts traced along the 850 hPa theta-e ridge; both bands classify as cold —
+  the storm had occluded and the warm sector was gone.
 - **[Day 9 · Urban-rural](day09_urban_rural)** — *Hungary, the sunshine country*, built on Hungary's
   own open data: mean annual sunshine (CARPATCLIM) and rainfall (HungaroMet/OMSZ), the sunny dry
   south-eastern plain against the cloudier, wetter hills and west — plus a year-of-sunshine GIF.
 - **[Day 12 · Power](day12_power_wind)** — 100 m wind power density over the North Sea offshore-wind
   belt: the energy in the wind (½·ρ·V³), with the big farms marked.
+- **[Day 14 · Borgesian map](day14_borgesian)** — *Matthias Aengenheyster*. After Borges' map at
+  the scale of the empire: one **nextGEMS IFS** (~2.8 km) precipitation field, six concentric
+  frames closing from 2,400 km onto a single 3.2 km HEALPix cell. Each blue box is the next
+  panel's frame.
 - **[Day 20 · Hexagons](day20_hexagons)** — one forecast on three model grids (25 → 9 → 1 km),
   binned into hexagons, so you can *see* what resolution buys you.
+- **[Day 20 · Hexagons — the grid, and nothing but the grid](day20_healpix_nesting)** — *Matthias
+  Aengenheyster*. The same storm with model identity held fixed: exact **HEALPix** nesting walks
+  one nextGEMS field down zoom 11 → 7 (the peak falling 164 → 1.5 mm/h while the regional mean
+  holds), the same ladder on the DestinE Climate DT, and a true H3 re-bin — which, unlike
+  HEALPix, does not nest exactly. nextGEMS is public; the Climate DT panel is **⬦ upgraded
+  access.**
 - **[Day 22 · Projections](day22_projections)** — one 500 hPa height field on four projections,
   so the distortion every flat map makes becomes visible in the graticule.
 - **[Day 26 · Water](day26_water_vapour)** — total-column water vapour as an orthographic globe:
@@ -48,6 +71,9 @@ cell to reveal it.
 |---|---|
 | [`ecmwf-opendata`](https://github.com/ecmwf/ecmwf-opendata) | ECMWF IFS open data (0.25° & 0.1°) |
 | **MARS** · [`ecmwf-api-client`](https://github.com/ecmwf/ecmwf-api-client) | IFS simulated satellite imagery (`ssd`, licensed — Day 5) |
+| [`polytope-client`](https://github.com/ecmwf/polytope-client) · [`earthkit-geo`](https://earthkit-geo.readthedocs.io) | DestinE Climate DT feature extraction — the polygon *is* the query (Days 3, 20) |
+| [`intake`](https://intake.readthedocs.io) | the public [Digital Earths Global Hackathon](https://digital-earths-global-hackathon.github.io/catalog/) catalogue — nextGEMS IFS (Days 14, 20) |
+| [`healpy`](https://healpy.readthedocs.io) | HEALPix cell indexing, nesting and disc queries (Days 3, 14, 20) |
 | [odp.met.hu](https://odp.met.hu) (HungaroMet / CARPATCLIM) | Hungary's open gridded climate — sunshine & rainfall (Day 9) |
 | [`meteodata-lab`](https://github.com/MeteoSwiss/meteodata-lab) | MeteoSwiss ICON-CH1 1 km |
 | [`earthkit-data`](https://earthkit-data.readthedocs.io) | reading GRIB |
@@ -59,6 +85,15 @@ cell to reveal it.
 - **ECMWF Open Data** — Creative Commons **CC-BY-4.0**. © ECMWF · source www.ecmwf.int ·
   [Terms of Use](https://apps.ecmwf.int/datasets/licences/general/).
 - **MeteoSwiss Open Data** — ICON-CH1-EPS via the Swiss open-data STAC API; attribute MeteoSwiss.
+- **DestinE Climate DT** (Days 3, 20) — Climate DT phase 2, served through **Polytope**. Reaching
+  it needs **approved (upgraded) DestinE data access**, not just a basic
+  [DestinE account](https://platform.destine.eu/) — so these days are not reproducible on any
+  laptop the way the open-data days are. `© ECMWF / Destination Earth` · Destination Earth is
+  funded by the European Union and implemented by ECMWF, ESA and EUMETSAT.
+- **nextGEMS IFS** (Days 14, 20) — cycle-3 `tco3999` run, distributed through the **Digital Earths
+  Global Hackathon** catalogue (**public, no account required**). `© ECMWF` · nextGEMS was funded
+  by the European Union (Horizon 2020, grant 101003470). Coastlines/borders are **Natural Earth**
+  (public domain).
 - **ERA5-HEAT (UTCI)** — Copernicus Climate Change Service (C3S), via the CDS. Contains modified
   Copernicus Climate Change Service information.
 - **ERA5 / ARCO-ERA5** — ECMWF ERA5 reanalysis for C3S, served as cloud-native Zarr by Google
@@ -74,4 +109,6 @@ cell to reveal it.
   (OMSZ)**'s open gridded database ([odp.met.hu](https://odp.met.hu), free use with attribution).
   Processed at run time; only the maps are shared.
 
-Maps by **Emma Pidduck**.
+Maps by **[Emma Pidduck](https://www.linkedin.com/in/emmapidduck/)** (Days 2, 3, 5, 6, 9, 12, 20,
+22, 26, 27, 28) and **[Matthias Aengenheyster](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/)**
+(Days 3, 6, 14, 20).
