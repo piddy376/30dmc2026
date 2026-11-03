@@ -29,6 +29,9 @@ jobs:
         run: pip install "jupyter-book>=2,<3"
       - name: Build HTML (no execution — uses the figures already in the notebooks)
         run: jupyter-book build --html
+        env:
+          # Served from a project Pages subpath, not the domain root
+          BASE_URL: /30dmc2026
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _build/html
