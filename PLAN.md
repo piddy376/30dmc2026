@@ -43,3 +43,10 @@ Cluster the ENS members by 500 hPa pattern — forecast spread shown as grouped 
 
 ## Day 29 · Raster
 The same field on its native 0.1° grid — a paired "before" to the Day 20 hexagons.
+
+## Day 23 · Taste — Eiswein watch  (in progress · Valters)
+`day23_taste_eiswein.ipynb` → `day23_taste_eiswein.png` (+ `_calendar.png`).
+Will it freeze to −7 °C for ice wine? ENS night-minimum 2 m T (00–06 UTC; `mn2t3` ≤144 h,
+`mn2t6` beyond) at 0.1°, control from `oper/fc` (50r1). 20 German/Austrian wine regions,
+each a bunch of 51 grapes (one per member). Map = cold 10 % of the ensemble, with the −7 °C line.
+Next: ERA5(-Land) "ice stripes", nights ≤ −7 °C per winter since 1950, to show the decline.
