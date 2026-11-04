@@ -22,7 +22,9 @@ jupyter lab
   read with [`earthkit-data`](https://earthkit-data.readthedocs.io). Licensed
   **CC-BY-4.0** ([Terms of Use](https://apps.ecmwf.int/datasets/licences/general/)).
   Attribution: `© ECMWF · Source: www.ecmwf.int · CC-BY-4.0 and ECMWF Terms of Use`.
-  Note: the client defaults to 0.25°; pass `resol="0p1"` for the 0.1° grid.
+  Note: the client defaults to 0.25°; pass `resol="0p1"` for the 0.1° grid (needs `ecmwf-opendata`
+  ≥ 0.3.35, surface fields with `levtype="sfc"`). Since IFS Cycle 50r1 (May 2026) the ENS file holds the
+  50 perturbed members only; the control comes from `stream=oper, type=fc` (Day 23).
 - **MeteoSwiss Open Data** — ICON-CH1-EPS via [`meteodata-lab`](https://github.com/MeteoSwiss/meteodata-lab)
   (STAC API, `data.geo.admin.ch`). Open Government Data; attribute **MeteoSwiss** as source.
 - **DestinE Climate DT** (Days 3, 20) — Climate DT phase 2 via **Polytope**. Needs **approved
@@ -31,7 +33,7 @@ jupyter lab
   `© ECMWF / Destination Earth` (funded by the EU; implemented by ECMWF, ESA and EUMETSAT).
 - **nextGEMS IFS** (Days 14, 20) — cycle-3 `tco3999`, via the **Digital Earths Global Hackathon**
   catalogue (**public, no account**). `© ECMWF`; nextGEMS funded by the EU (H2020, grant 101003470).
-- **ERA5 / ERA5-Land / ERA5-HEAT** (Days 3, 27, 28) — ECMWF reanalysis for the Copernicus Climate
+- **ERA5 / ERA5-Land / ERA5-HEAT** (Days 3, 8, 27, 28) — ECMWF reanalysis for the Copernicus Climate
   Change Service (C3S), via the CDS and as cloud-native Zarr (ARCO-ERA5, `gs://gcp-public-data-arco-era5`).
   *Contains modified Copernicus Climate Change Service information.*
 - **ECMWF simulated satellite imagery** (Day 5, `type=ssd`) — an ECMWF **operational** product,
@@ -57,12 +59,14 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 5 | Senses: Sight | "A forecast you can see" — IFS synthetic Meteosat-10 SEVIRI IR imagery (`type=ssd`), a six-day forecast (+ rolling GIF) | EP |
 | 6 | Vintage | The Great Storm of 1987 (16 Oct) as a mid-century surface analysis — ERA5 via CDS | EP |
 | 6 | Vintage | The Night of the Great Flood — 31 Jan 1953 surface chart from the ERA5 back extension | MA |
+| 8 | Utopia | When is your utopia? — each place's most pleasant month from 30 years of ERA5: Africa with all 54 capitals, Europe with world capitals and the ECMWF sites | VŽ |
 | 9 | Urban-rural | Hungary, the sunshine country — annual sunshine (CARPATCLIM) + rainfall (OMSZ HuClim), full national coverage + seasonal GIF | EP |
 | 12 | Power | 100 m wind power density over the North Sea offshore-wind belt | EP |
 | 14 | Borgesian map | One nextGEMS IFS (~2.8 km) field, six frames closing onto a single 3.2 km HEALPix cell | MA |
 | 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | EP |
 | 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
 | 22 | Projections | One 500 hPa height field on four projections | EP |
+| 23 | Senses: Taste | Eiswein watch — will the grapes freeze to −7 °C? IFS ENS night minimum (0.1° open data), 51 grapes per German/Austrian wine region | VŽ |
 | 26 | Water | Total-column water vapour as an orthographic globe | EP |
 | 27 | New tool | Storm Ciarán (2 Nov 2023), live from ARCO-ERA5 cloud-native Zarr | EP |
 | 28 | Senses: Feeling | The day the UK hit 40 °C, as UTCI "feels-like" (ERA5-HEAT) | EP |
@@ -74,3 +78,4 @@ runs on fully open data. See [`PLAN.md`](PLAN.md) for the brief on each day.
 
 - **Emma Pidduck** — [LinkedIn](https://www.linkedin.com/in/emmapidduck/) (Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28)
 - **Matthias Aengenheyster** — [LinkedIn](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/) (Days 3, 6, 14, 20)
+- **Valters Žeižis** — [LinkedIn](https://www.linkedin.com/in/valterszeizis/) (Days 8, 23)
