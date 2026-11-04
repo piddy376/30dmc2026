@@ -11,6 +11,7 @@ authors:
     given-names: Emma
   - family-names: Aengenheyster
     given-names: Matthias
+    orcid: "https://orcid.org/0000-0001-9508-0450"
   - family-names: Žeižis
     given-names: Valters
 repository-code: "https://github.com/piddy376/30dmc2026"
