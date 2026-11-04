@@ -7,10 +7,10 @@ project:
       url: https://www.linkedin.com/in/emmapidduck/
     - name: Matthias Aengenheyster
       url: https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/
-    - name: Valters Zeizis
+    - name: Valters Žeižis
       url: https://www.linkedin.com/in/valterszeizis/
   github: https://github.com/piddy376/30dmc2026
-  copyright: "2026 · Emma Pidduck, Matthias Aengenheyster & Valters Zeizis"
+  copyright: "2026 · Emma Pidduck, Matthias Aengenheyster & Valters Žeižis"
   # Do NOT re-execute — the notebooks fetch live, expiring data; show the rendered figures.
   toc:
     - file: intro.md
@@ -22,6 +22,7 @@ project:
         - file: day05_sight_ssd.ipynb
         - file: day06_vintage.ipynb
         - file: day06_vintage_1953.ipynb
+        - file: day08_utopia_bestmonth.ipynb
         - file: day09_urban_rural.ipynb
         - file: day12_power_wind.ipynb
         - file: day14_borgesian.ipynb

@@ -39,6 +39,11 @@ access*, not just a basic platform account; those days are marked **⬦ upgraded
   Aengenheyster*. 31 January 1953, 18 UTC, drawn from the **ERA5 back extension** as a period
   surface chart. Fronts traced along the 850 hPa theta-e ridge; both bands classify as cold —
   the storm had occluded and the warm sector was gone.
+- **[Day 8 · Utopia](day08_utopia_bestmonth)** — *Valters Žeižis*. When is your utopia? Every place's
+  most pleasant month (warm but not hot, dry, sunny and calm) from 30 years of **ERA5**. North of
+  the equator, Africa's utopia comes with the dry season around January; south of it, around July;
+  parts of East Africa get two. A Europe version adds world capitals and the best month to visit
+  each ECMWF site.
 - **[Day 9 · Urban-rural](day09_urban_rural)** — *Hungary, the sunshine country*, built on Hungary's
   own open data: mean annual sunshine (CARPATCLIM) and rainfall (HungaroMet/OMSZ), the sunny dry
   south-eastern plain against the cloudier, wetter hills and west — plus a year-of-sunshine GIF.
@@ -58,7 +63,7 @@ access*, not just a basic platform account; those days are marked **⬦ upgraded
   access.**
 - **[Day 22 · Projections](day22_projections)** — one 500 hPa height field on four projections,
   so the distortion every flat map makes becomes visible in the graticule.
-- **[Day 23 · Taste](day23_taste_eiswein)** — *Valters Zeizis*. Will it freeze hard enough for ice
+- **[Day 23 · Taste](day23_taste_eiswein)** — *Valters Žeižis*. Will it freeze hard enough for ice
   wine? Each grape in a bunch is one of the **51 ENS members**, coloured by its coldest morning over
   the next 15 nights; 20 German & Austrian wine regions, with −7 °C the ice-wine threshold. IFS 9 km
   open data.
@@ -85,7 +90,7 @@ cell to reveal it.
 | [odp.met.hu](https://odp.met.hu) (HungaroMet / CARPATCLIM) | Hungary's open gridded climate — sunshine & rainfall (Day 9) |
 | [`meteodata-lab`](https://github.com/MeteoSwiss/meteodata-lab) | MeteoSwiss ICON-CH1 1 km |
 | [`earthkit-data`](https://earthkit-data.readthedocs.io) | reading GRIB |
-| [`cdsapi`](https://github.com/ecmwf/cdsapi) | ERA5 / ERA5-HEAT from the Copernicus **Climate Data Store** (Days 6, 28) |
+| [`cdsapi`](https://github.com/ecmwf/cdsapi) | ERA5 / ERA5-HEAT from the Copernicus **Climate Data Store** (Days 6, 8, 28) |
 | [`zarr`](https://zarr.readthedocs.io) · [`gcsfs`](https://gcsfs.readthedocs.io) | cloud-native ERA5 (ARCO-ERA5), no download |
 | [`h3`](https://h3geo.org) · `cartopy` · `matplotlib` | hexagons, projection, render |
 
@@ -105,7 +110,7 @@ cell to reveal it.
   (public domain).
 - **ERA5-HEAT (UTCI)** — Copernicus Climate Change Service (C3S), via the CDS. Contains modified
   Copernicus Climate Change Service information.
-- **ERA5** (Days 6, 27) — ECMWF ERA5 reanalysis for C3S. Day 6 is pulled from the **CDS** via
+- **ERA5** (Days 6, 8, 27) — ECMWF ERA5 reanalysis for C3S. Days 6 and 8 are pulled from the **CDS** via
   `cdsapi`; Day 27 is served as cloud-native Zarr by Google (ARCO-ERA5,
   `gs://gcp-public-data-arco-era5`). Both contain modified Copernicus Climate Change Service information.
 - **ECMWF simulated satellite imagery** (Day 5, `type=ssd`) — an ECMWF **operational** product,
@@ -125,4 +130,4 @@ Each day's map is the work of its named author:
 
 - **[Emma Pidduck](https://www.linkedin.com/in/emmapidduck/)** — Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28
 - **[Matthias Aengenheyster](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/)** — Days 3, 6, 14, 20
-- **[Valters Zeizis](https://www.linkedin.com/in/valterszeizis/)** — Day 23
+- **[Valters Žeižis](https://www.linkedin.com/in/valterszeizis/)** — Days 8, 23

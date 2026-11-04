@@ -44,9 +44,16 @@ Cluster the ENS members by 500 hPa pattern — forecast spread shown as grouped 
 ## Day 29 · Raster
 The same field on its native 0.1° grid — a paired "before" to the Day 20 hexagons.
 
-## Day 23 · Taste — Eiswein watch  (in progress · Valters)
+## Day 23 · Taste — Eiswein watch  (built · Valters · re-run before 23 Nov)
 `day23_taste_eiswein.ipynb` → `day23_taste_eiswein.png` (+ `_calendar.png`).
 Will it freeze to −7 °C for ice wine? ENS night-minimum 2 m T (00–06 UTC; `mn2t3` ≤144 h,
 `mn2t6` beyond) at 0.1°, control from `oper/fc` (50r1). 20 German/Austrian wine regions,
 each a bunch of 51 grapes (one per member). Map = cold 10 % of the ensemble, with the −7 °C line.
 Next: ERA5(-Land) "ice stripes", nights ≤ −7 °C per winter since 1950, to show the decline.
+
+## Day 8 · Utopia — When is your utopia?  (built · Valters)
+`day08_utopia_bestmonth.ipynb` → `day08_utopia_africa.png`, `day08_utopia_bestmonth.png`
+(+ `_shift.png`). ERA5 monthly means 1991–2020 via the CDS (0.25° Africa and Europe, 1° global):
+each place's most pleasant month (daily-mean T near 19 °C, dry, sunny, calm). Africa with all 54
+capitals as a month list (dark poster, Natural Earth mask); Europe with world capitals on a clock
+and the ECMWF sites. Hatched = two utopias a year (runner-up close and 2+ months away).

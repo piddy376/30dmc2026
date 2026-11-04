@@ -1,5 +1,5 @@
 earthkit-data
-ecmwf-opendata
+ecmwf-opendata>=0.3.35
 cfgrib
 xarray
 cartopy
