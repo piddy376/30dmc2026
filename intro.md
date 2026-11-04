@@ -58,6 +58,10 @@ access*, not just a basic platform account; those days are marked **⬦ upgraded
   access.**
 - **[Day 22 · Projections](day22_projections)** — one 500 hPa height field on four projections,
   so the distortion every flat map makes becomes visible in the graticule.
+- **[Day 23 · Taste](day23_taste_eiswein)** — *Valters Zeizis*. Will it freeze hard enough for ice
+  wine? Each grape in a bunch is one of the **51 ENS members**, coloured by its coldest morning over
+  the next 15 nights; 20 German & Austrian wine regions, with −7 °C the ice-wine threshold. IFS 9 km
+  open data.
 - **[Day 26 · Water](day26_water_vapour)** — total-column water vapour as an orthographic globe:
   the atmospheric rivers that carry more water than the Amazon, drawn on the sphere.
 - **[Day 27 · New tool](day27_new_tool_zarr)** — **Storm Ciarán** (2 November 2023), pulled live
