@@ -16,6 +16,7 @@ authors:
     given-names: Valters
 repository-code: "https://github.com/piddy376/30dmc2026"
 url: "https://piddy376.github.io/30dmc2026/"
+doi: 10.5281/zenodo.23955953
 license: CC-BY-4.0
 keywords:
   - weather
