@@ -30,8 +30,11 @@ access*, not just a basic platform account; those days are marked **⬦ upgraded
   Meteosat-10 infrared image. What looks like a satellite photo is a six-day forecast — a **model
   product** (SEVIRI's spectral characteristics, but not the viewing geometry), a forecast tool, not a
   real observation. *(Operational ECMWF product; the sample here is shared one-off under CC-BY-4.0.)*
-- **[Day 6 · Vintage](day06_vintage)** — today's mean-sea-level pressure as a mid-century surface
-  analysis chart: sepia isobars, hand-marked highs and lows, on aged paper.
+- **[Day 6 · Vintage](day06_vintage)** — **the Great Storm of 1987** as a mid-century surface
+  analysis: ERA5 for 16 October 1987, 00 UTC — the ~953 hPa low over the Channel, isobars, wind
+  barbs in knots, fronts from the 850 hPa θₑ gradient (an objective estimate, for fun) and the
+  depression's overnight track, in sepia on aged paper. Drawn in the same hand as Matthias's 1953
+  plate below. Modern reanalysis (back to 1940), old clothes.
 - **[Day 6 · Vintage — The Night of the Great Flood](day06_vintage_1953)** — *Matthias
   Aengenheyster*. 31 January 1953, 18 UTC, drawn from the **ERA5 back extension** as a period
   surface chart. Fronts traced along the 850 hPa theta-e ridge; both bands classify as cold —
@@ -57,8 +60,9 @@ access*, not just a basic platform account; those days are marked **⬦ upgraded
   so the distortion every flat map makes becomes visible in the graticule.
 - **[Day 26 · Water](day26_water_vapour)** — total-column water vapour as an orthographic globe:
   the atmospheric rivers that carry more water than the Amazon, drawn on the sphere.
-- **[Day 27 · New tool](day27_new_tool_zarr)** — the Great Storm of 1987, pulled live from the
-  ERA5 reanalysis as cloud-native **Zarr** (ARCO-ERA5): one hour out of 60+ years, no download.
+- **[Day 27 · New tool](day27_new_tool_zarr)** — **Storm Ciarán** (2 November 2023), pulled live
+  from the ERA5 reanalysis as cloud-native **Zarr** (full hourly ARCO-ERA5): one hour out of a
+  petabyte, no download — the same one line that reaches the 1987 storm on Day 6.
 - **[Day 28 · Feeling](day28_feeling_utci)** — the day the UK hit 40 °C, as the Universal Thermal
   Climate Index (UTCI): what the heat actually *felt* like, from ERA5-HEAT reanalysis.
 
@@ -77,6 +81,7 @@ cell to reveal it.
 | [odp.met.hu](https://odp.met.hu) (HungaroMet / CARPATCLIM) | Hungary's open gridded climate — sunshine & rainfall (Day 9) |
 | [`meteodata-lab`](https://github.com/MeteoSwiss/meteodata-lab) | MeteoSwiss ICON-CH1 1 km |
 | [`earthkit-data`](https://earthkit-data.readthedocs.io) | reading GRIB |
+| [`cdsapi`](https://github.com/ecmwf/cdsapi) | ERA5 / ERA5-HEAT from the Copernicus **Climate Data Store** (Days 6, 28) |
 | [`zarr`](https://zarr.readthedocs.io) · [`gcsfs`](https://gcsfs.readthedocs.io) | cloud-native ERA5 (ARCO-ERA5), no download |
 | [`h3`](https://h3geo.org) · `cartopy` · `matplotlib` | hexagons, projection, render |
 
@@ -96,8 +101,9 @@ cell to reveal it.
   (public domain).
 - **ERA5-HEAT (UTCI)** — Copernicus Climate Change Service (C3S), via the CDS. Contains modified
   Copernicus Climate Change Service information.
-- **ERA5 / ARCO-ERA5** — ECMWF ERA5 reanalysis for C3S, served as cloud-native Zarr by Google
-  (`gs://gcp-public-data-arco-era5`). Contains modified Copernicus Climate Change Service information.
+- **ERA5** (Days 6, 27) — ECMWF ERA5 reanalysis for C3S. Day 6 is pulled from the **CDS** via
+  `cdsapi`; Day 27 is served as cloud-native Zarr by Google (ARCO-ERA5,
+  `gs://gcp-public-data-arco-era5`). Both contain modified Copernicus Climate Change Service information.
 - **ECMWF simulated satellite imagery** (Day 5, `type=ssd`) — an ECMWF **operational** product,
   normally accessed under ECMWF's **service / charge model** (not the open-data release). The small
   sample used here (3 brightness-temperature fields) is shared **one-off** under

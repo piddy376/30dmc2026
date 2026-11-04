@@ -55,7 +55,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 3 | Polygons | A Bulgarian November — rainfall by municipality + bivariate rain × temperature (ERA5-Land) | EP |
 | 3 | Polygons | Summer weather in Greece — the polygon *is* the Polytope query; DestinE Climate DT ⬦ | MA |
 | 5 | Senses: Sight | "A forecast you can see" — IFS synthetic Meteosat-10 SEVIRI IR imagery (`type=ssd`), a six-day forecast (+ rolling GIF) | EP |
-| 6 | Vintage | Today's MSLP as a mid-century surface-analysis chart | EP |
+| 6 | Vintage | The Great Storm of 1987 (16 Oct) as a mid-century surface analysis — ERA5 via CDS | EP |
 | 6 | Vintage | The Night of the Great Flood — 31 Jan 1953 surface chart from the ERA5 back extension | MA |
 | 9 | Urban-rural | Hungary, the sunshine country — annual sunshine (CARPATCLIM) + rainfall (OMSZ HuClim), full national coverage + seasonal GIF | EP |
 | 12 | Power | 100 m wind power density over the North Sea offshore-wind belt | EP |
@@ -64,7 +64,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
 | 22 | Projections | One 500 hPa height field on four projections | EP |
 | 26 | Water | Total-column water vapour as an orthographic globe | EP |
-| 27 | New tool | The Great Storm of 1987, live from ARCO-ERA5 cloud-native Zarr | EP |
+| 27 | New tool | Storm Ciarán (2 Nov 2023), live from ARCO-ERA5 cloud-native Zarr | EP |
 | 28 | Senses: Feeling | The day the UK hit 40 °C, as UTCI "feels-like" (ERA5-HEAT) | EP |
 
 ⬦ = needs **approved (upgraded) DestinE data access** (not just a basic account); every other day
