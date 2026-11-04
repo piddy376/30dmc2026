@@ -1,5 +1,7 @@
 # 30dmc2026
 
+[![DOI](https://zenodo.org/badge/1437138475.svg)](https://zenodo.org/badge/latestdoi/1437138475)
+
 Maps for the 2026 [#30DayMapChallenge](https://30daymapchallenge.com/), built on open
 weather and climate data — primarily **ECMWF IFS open data** (0.1°, the ~9 km IFS
 regridded) and **MeteoSwiss ICON-CH1** (1 km) — using ECMWF's open-source Python stack.
