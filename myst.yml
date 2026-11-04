@@ -10,7 +10,7 @@ project:
     - name: Valters Žeižis
       url: https://www.linkedin.com/in/valterszeizis/
   github: https://github.com/piddy376/30dmc2026
-  copyright: "2026 · Emma Pidduck & Matthias Aengenheyster"
+  copyright: "2026 · Emma Pidduck, Matthias Aengenheyster & Valters Žeižis"
   # Do NOT re-execute — the notebooks fetch live, expiring data; show the rendered figures.
   toc:
     - file: intro.md

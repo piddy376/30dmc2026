@@ -66,7 +66,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | EP |
 | 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
 | 22 | Projections | One 500 hPa height field on four projections | EP |
-| 23 | Senses: Taste | Eiswein watch — will the grapes freeze to −7 °C? IFS ENS night minimum (0.1° open data), 51 grapes per German/Austrian wine region | VŽ |
+| 23 | Taste | Eiswein watch — will it freeze to −7 °C for ice wine? 51-member ENS night-min T, 20 wine regions | VŽ |
 | 26 | Water | Total-column water vapour as an orthographic globe | EP |
 | 27 | New tool | Storm Ciarán (2 Nov 2023), live from ARCO-ERA5 cloud-native Zarr | EP |
 | 28 | Senses: Feeling | The day the UK hit 40 °C, as UTCI "feels-like" (ERA5-HEAT) | EP |
