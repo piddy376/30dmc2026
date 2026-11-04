@@ -115,6 +115,10 @@ cell to reveal it.
   (OMSZ)**'s open gridded database ([odp.met.hu](https://odp.met.hu), free use with attribution).
   Processed at run time; only the maps are shared.
 
-Maps by **[Emma Pidduck](https://www.linkedin.com/in/emmapidduck/)** (Days 2, 3, 5, 6, 9, 12, 20,
-22, 26, 27, 28) and **[Matthias Aengenheyster](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/)**
-(Days 3, 6, 14, 20).
+## Contributors
+
+Each day's map is the work of its named author:
+
+- **[Emma Pidduck](https://www.linkedin.com/in/emmapidduck/)** — Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28
+- **[Matthias Aengenheyster](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/)** — Days 3, 6, 14, 20
+- **[Valters Zeizis](https://github.com/valtzen)** — Day 23
