@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Weather Maps — #30DayMapChallenge 2026"
+message: "If you use these maps or notebooks, please cite them."
+type: software
+abstract: >-
+  Beautiful, reproducible weather maps built on open data — ECMWF IFS open data,
+  ERA5 / Copernicus, MeteoSwiss ICON-CH1, and more — as self-contained Jupyter
+  notebooks, for the #30DayMapChallenge 2026.
+authors:
+  - family-names: Pidduck
+    given-names: Emma
+  - family-names: Aengenheyster
+    given-names: Matthias
+  - family-names: Žeižis
+    given-names: Valters
+repository-code: "https://github.com/piddy376/30dmc2026"
+url: "https://piddy376.github.io/30dmc2026/"
+license: CC-BY-4.0
+keywords:
+  - weather
+  - ECMWF
+  - ERA5
+  - open data
+  - data visualisation
+  - "30DayMapChallenge"
+year: 2026
