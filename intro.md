@@ -1,20 +1,24 @@
 # Weather Maps · #30DayMapChallenge 2026
 
-Beautiful, reproducible weather maps built on **open data** — from ECMWF's global forecasts
-(9 km and 25 km) to MeteoSwiss's 1 km Alpine model — using ECMWF's own open-source Python tools.
+![Four of the maps — total-column water vapour, the Great Storm of 1987, a 40 °C heat day, and Storm Ciarán](assets/cover.png)
 
-Every map is a **self-contained Jupyter notebook**: method, code, output, data licence and
-tools in one place. Nothing to install beyond `pip`; nothing hidden.
+A growing, collaborative gallery for the **[#30DayMapChallenge](https://30daymapchallenge.com/) 2026** —
+one weather map a day, made by a small international team who love the weather and the craft of
+drawing it. Different hands, different styles, one shared delight in what a map can say.
 
-Most days run on **fully open data** — anyone can reproduce them. A few of Matthias's days
-pull the **DestinE Climate DT** through Polytope, which needs *approved (upgraded) DestinE data
-access*, not just a basic platform account; those days are marked **⬦ upgraded access** below.
+Each map is a **self-contained Jupyter notebook** — method, code, output and data licence in one
+place — and almost all are built on **free, open data**: ECMWF's 9 km forecasts, ERA5 and
+Copernicus, MeteoSwiss, nextGEMS. Anyone can reproduce them on a laptop. (A few of Matthias's days
+pull the **DestinE Climate DT** through Polytope, which needs *approved, upgraded access* — marked
+**⬦ upgraded access** below.)
+
+<img src="assets/ECMWF_Core_Logo_RGB.png" width="150" alt="ECMWF logo">
+
+Built with **ECMWF** open data and open-source tools.
 
 > ⚠️ **Just for fun — not an official ECMWF product.** Claude (Anthropic) helped build these
 > notebooks. They are **not** official ECMWF notebooks and are **not** supported by ECMWF — a
-> personal #30DayMapChallenge experiment to show how approachable open weather data has become.
-
-![The impact of resolution — 24-hour precipitation over Switzerland](day20_hexagons.png)
+> personal #30DayMapChallenge experiment to show how approachable open weather and climate data has become.
 
 ## The maps
 
@@ -126,8 +130,10 @@ cell to reveal it.
 
 ## Contributors
 
-Each day's map is the work of its named author:
+A small, growing team — each day's map is the work of its named author:
 
-- **[Emma Pidduck](https://www.linkedin.com/in/emmapidduck/)** — Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28
-- **[Matthias Aengenheyster](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/)** — Days 3, 6, 14, 20
-- **[Valters Žeižis](https://www.linkedin.com/in/valterszeizis/)** — Days 8, 23
+- **[Emma Pidduck](https://www.linkedin.com/in/emmapidduck/)** · ECMWF — Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28
+- **[Matthias Aengenheyster](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/)** · ECMWF — Days 3, 6, 14, 20
+- **[Valters Žeižis](https://www.linkedin.com/in/valterszeizis/)** · ECMWF — Days 8, 23
+
+More hands welcome.

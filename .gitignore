@@ -13,6 +13,7 @@ explorations/
 assets/*.png
 !assets/ECMWF_Core_Logo_RGB.png
 !assets/ECMWF_Core_Logo_WHITE.png
+!assets/cover.png
 _build/
 .jupyter_cache/
 .gstack/
