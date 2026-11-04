@@ -75,4 +75,4 @@ runs on fully open data. See [`PLAN.md`](PLAN.md) for the brief on each day.
 
 - **Emma Pidduck** — [LinkedIn](https://www.linkedin.com/in/emmapidduck/) (Days 2, 3, 5, 6, 9, 12, 20, 22, 26, 27, 28)
 - **Matthias Aengenheyster** — [LinkedIn](https://www.linkedin.com/in/matthias-aengenheyster-2a0ba5199/) (Days 3, 6, 14, 20)
-- **Valters Zeizis** — [GitHub](https://github.com/valtzen) (Day 23)
+- **Valters Zeizis** — [LinkedIn](https://www.linkedin.com/in/valterszeizis/) (Day 23)
