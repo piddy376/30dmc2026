@@ -71,6 +71,10 @@ Built with **ECMWF** open data and open-source tools.
   wine? Each grape in a bunch is one of the **51 ENS members**, coloured by its coldest morning over
   the next 15 nights; 20 German & Austrian wine regions, with −7 °C the ice-wine threshold. IFS 9 km
   open data.
+- **[Day 25 · Is this a map?](day25_isthisamap)** — the same instant over Romania twice: a map looking
+  *down* on rising and sinking air, then the atmosphere *edge-on* as a vertical slice along 25°E. A
+  cross-section is a map of a vertical plane — drawn from **IFS 9 km open data**, plotting the vertical
+  velocity the model computes on every level but almost nobody draws.
 - **[Day 26 · Water](day26_water_vapour)** — total-column water vapour as an orthographic globe:
   the atmospheric rivers that carry more water than the Amazon, drawn on the sphere.
 - **[Day 27 · New tool](day27_new_tool_zarr)** — **Storm Ciarán** (2 November 2023), pulled live
@@ -137,3 +141,11 @@ A small, growing team — each day's map is the work of its named author:
 - **[Valters Žeižis](https://www.linkedin.com/in/valterszeizis/)** · ECMWF — Days 8, 23
 
 More hands welcome.
+
+## Cite this gallery
+
+Archived on Zenodo with a version-independent concept DOI (always resolves to the latest release):
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23955953.svg)](https://doi.org/10.5281/zenodo.23955953)
+
+> Pidduck, E., Aengenheyster, M., & Žeižis, V. (2026). *Weather Maps · #30DayMapChallenge 2026.* Zenodo. https://doi.org/10.5281/zenodo.23955953

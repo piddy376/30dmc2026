@@ -30,6 +30,7 @@ project:
         - file: day20_healpix_nesting.ipynb
         - file: day22_projections.ipynb
         - file: day23_taste_eiswein.ipynb
+        - file: day25_isthisamap.ipynb
         - file: day26_water_vapour.ipynb
         - file: day27_new_tool_zarr.ipynb
         - file: day28_feeling_utci.ipynb
