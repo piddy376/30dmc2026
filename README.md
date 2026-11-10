@@ -6,6 +6,8 @@ Maps for the 2026 [#30DayMapChallenge](https://30daymapchallenge.com/), built on
 weather and climate data — primarily **ECMWF IFS open data** (0.1°, the ~9 km IFS
 regridded) and **MeteoSwiss ICON-CH1** (1 km) — using ECMWF's open-source Python stack.
 
+**Read it as a book: <https://piddy376.github.io/30dmc2026/>**
+
 Each day is a **self-contained Jupyter notebook**: method, code, output, data licence and
 tools in one place, reproducible on any laptop with `pip`.
 
@@ -48,6 +50,11 @@ jupyter lab
   [odp.met.hu](https://odp.met.hu)); rainfall from **HungaroMet (OMSZ)**'s open gridded database
   (free use with attribution: *Database: Meteorological Database, HungaroMet Nonprofit Zrt.*).
   Downloaded and processed at run time — only the maps are committed, no data redistributed.
+- **Elexon BMRS & EMODnet** (Day 12, Power) — measured GB wind generation from Elexon's open
+  [Insights API](https://bmrs.elexon.co.uk/api-documentation) (`AGWS`, `B1610`; no key; reuse under
+  Elexon's BMRS data licence), and offshore wind-farm footprints from
+  [EMODnet Human Activities](https://emodnet.ec.europa.eu/en/human-activities) (CC-BY-4.0). The small
+  footprint file under `data/` is derived from the EMODnet layer.
 
 Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundled `ssd` data sample).
 
