@@ -58,6 +58,11 @@ Built with **ECMWF** open data and open-source tools.
   the scale of the empire: one **nextGEMS IFS** (~2.8 km) precipitation field, six concentric
   frames closing from 2,400 km onto a single 3.2 km HEALPix cell. Each blue box is the next
   panel's frame.
+- **[Day 15 · Inside out](day15_inside_out)** — the page given to the ocean, twice. The **Spilhaus
+  projection** keeps the ocean in one piece and pushes the continents to the frame; an
+  **equal-area disc centred on the Gulf of Guinea** puts Africa in the middle of it. On both, five
+  days of significant wave height and wave direction from the IFS wave forecast, animated, with
+  sea ice appearing where the model has no waves.
 - **[Day 20 · Hexagons](day20_hexagons)** — one forecast on three model grids (25 → 9 → 1 km),
   binned into hexagons, so you can *see* what resolution buys you.
 - **[Day 20 · Hexagons — the grid, and nothing but the grid](day20_healpix_nesting)** — *Matthias

@@ -72,6 +72,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 9 | Urban-rural | Hungary, the sunshine country — annual sunshine (CARPATCLIM) + rainfall (OMSZ HuClim), full national coverage + seasonal GIF | EP |
 | 12 | Power | 100 m wind power density over Britain's offshore wind farms, checked against measured generation (Elexon) | EP |
 | 14 | Borgesian map | One nextGEMS IFS (~2.8 km) field, six frames closing onto a single 3.2 km HEALPix cell | MA |
+| 15 | Inside out | The ocean in one piece: five days of IFS waves on the Spilhaus projection and on an equal-area disc centred on the Gulf of Guinea | EP |
 | 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | EP |
 | 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
 | 22 | Projections | One 500 hPa height field on four projections | EP |
