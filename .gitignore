@@ -18,3 +18,13 @@ _build/
 .jupyter_cache/
 .gstack/
 data/_raw/
+
+# Local work in progress, not part of the book (remove a line here to start tracking it)
+wsd/
+wsd_*
+day10_prompting*
+day09_tropical_nights.png
+dayXX_*
+data/bgr_adm2.geojson
+data/deu_adm*.geojson
+*_post_and_alt_text.md
