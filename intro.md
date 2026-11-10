@@ -51,8 +51,9 @@ Built with **ECMWF** open data and open-source tools.
 - **[Day 9 · Urban-rural](day09_urban_rural)** — *Hungary, the sunshine country*, built on Hungary's
   own open data: mean annual sunshine (CARPATCLIM) and rainfall (HungaroMet/OMSZ), the sunny dry
   south-eastern plain against the cloudier, wetter hills and west — plus a year-of-sunshine GIF.
-- **[Day 12 · Power](day12_power_wind)** — 100 m wind power density over the North Sea offshore-wind
-  belt: the energy in the wind (½·ρ·V³), with the big farms marked.
+- **[Day 12 · Power](day12_power_wind)** — 100 m wind power density (½·ρ·V³) over Britain's offshore
+  wind farms, drawn with their real footprints — and a test: IFS wind through a simple turbine curve
+  against the fleet's measured output (Elexon), ten days back and ten days ahead.
 - **[Day 14 · Borgesian map](day14_borgesian)** — *Matthias Aengenheyster*. After Borges' map at
   the scale of the empire: one **nextGEMS IFS** (~2.8 km) precipitation field, six concentric
   frames closing from 2,400 km onto a single 3.2 km HEALPix cell. Each blue box is the next

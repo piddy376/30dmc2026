@@ -63,7 +63,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 6 | Vintage | The Night of the Great Flood — 31 Jan 1953 surface chart from the ERA5 back extension | MA |
 | 8 | Utopia | When is your utopia? — each place's most pleasant month from 30 years of ERA5: Africa with all 54 capitals, Europe with world capitals and the ECMWF sites | VŽ |
 | 9 | Urban-rural | Hungary, the sunshine country — annual sunshine (CARPATCLIM) + rainfall (OMSZ HuClim), full national coverage + seasonal GIF | EP |
-| 12 | Power | 100 m wind power density over the North Sea offshore-wind belt | EP |
+| 12 | Power | 100 m wind power density over Britain's offshore wind farms, checked against measured generation (Elexon) | EP |
 | 14 | Borgesian map | One nextGEMS IFS (~2.8 km) field, six frames closing onto a single 3.2 km HEALPix cell | MA |
 | 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | EP |
 | 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
