@@ -63,6 +63,12 @@ Built with **ECMWF** open data and open-source tools.
   **equal-area disc centred on the Gulf of Guinea** puts Africa in the middle of it. On both, five
   days of significant wave height and wave direction from the IFS wave forecast, animated, with
   sea ice appearing where the model has no waves.
+- **[Day 17 · Light & dark](day17_light_dark)** — one instant of the IFS 9 km forecast, split along
+  the line between day and night. The light side is the **sunlight reaching the ground**; the dark
+  side is the **heat the planet sends back to space**. At 15:00 UTC the line runs through Europe,
+  so the map also sorts the national meteorological services of ECMWF's 35 Member and
+  Co-operating States into daylight, twilight and night. A 24-hour animation follows the line
+  round the globe as the 35 services go dark one by one.
 - **[Day 20 · Hexagons](day20_hexagons)** — one forecast on three model grids (25 → 9 → 1 km),
   binned into hexagons, so you can *see* what resolution buys you.
 - **[Day 20 · Hexagons — the grid, and nothing but the grid](day20_healpix_nesting)** — *Matthias

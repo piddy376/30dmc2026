@@ -73,6 +73,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 12 | Power | 100 m wind power density over Britain's offshore wind farms, checked against measured generation (Elexon) | EP |
 | 14 | Borgesian map | One nextGEMS IFS (~2.8 km) field, six frames closing onto a single 3.2 km HEALPix cell | MA |
 | 15 | Inside out | The ocean in one piece: five days of IFS waves on the Spilhaus projection and on an equal-area disc centred on the Gulf of Guinea | EP |
+| 17 | Light & dark | Light in, heat out — one IFS 9 km instant split along the day/night line: sunlight reaching the ground on one side, heat leaving to space on the other, with ECMWF's 35 Member and Co-operating States sorted into daylight, twilight and night (+ a 24-hour animation) | EP |
 | 20 | Hexagons | 25 / 9 / 1 km precipitation over Switzerland, H3 hexbins (ECMWF + MeteoSwiss) | EP |
 | 20 | Hexagons | The grid, and nothing but the grid — exact HEALPix nesting + H3, model identity held fixed (nextGEMS + Climate DT ⬦) | MA |
 | 22 | Projections | One 500 hPa height field on four projections | EP |
