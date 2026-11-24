@@ -71,6 +71,12 @@ Built with **ECMWF** open data and open-source tools.
   round the globe as the 35 services go dark one by one.
 - **[Day 20 · Hexagons](day20_hexagons)** — one forecast on three model grids (25 → 9 → 1 km),
   binned into hexagons, so you can *see* what resolution buys you.
+- **[Day 20 · Hexagons — Italy, rain by the hour](day20_hexagons_italy)** — ten days of IFS 9 km
+  rain as 3D hexagon columns over Italy, jumping with the rain rate, piling up to the ten-day total,
+  or both at once.
+- **[Day 20 · Hexagons — snow on the Alps](day20_hexagons_alps)** — the same 3D hexagons for
+  snowfall along the Alpine arc, Nice to Vienna: columns grow to the ten-day total and flash while
+  it snows.
 - **[Day 20 · Hexagons — the grid, and nothing but the grid](day20_healpix_nesting)** — *Matthias
   Aengenheyster*. The same storm with model identity held fixed: exact **HEALPix** nesting walks
   one nextGEMS field down zoom 11 → 7 (the peak falling 164 → 1.5 mm/h while the regional mean

@@ -30,6 +30,8 @@ project:
         - file: day15_inside_out_currents.ipynb
         - file: day17_light_dark.ipynb
         - file: day20_hexagons.ipynb
+        - file: day20_hexagons_italy.ipynb
+        - file: day20_hexagons_alps.ipynb
         - file: day20_healpix_nesting.ipynb
         - file: day22_projections.ipynb
         - file: day23_taste_eiswein.ipynb
