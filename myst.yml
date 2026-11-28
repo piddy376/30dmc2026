@@ -39,6 +39,7 @@ project:
         - file: day26_water_vapour.ipynb
         - file: day27_new_tool_zarr.ipynb
         - file: day28_feeling_utci.ipynb
+        - file: day28_feeling_beethoven.ipynb
 site:
   title: Weather Maps
   template: book-theme

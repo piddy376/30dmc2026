@@ -83,6 +83,7 @@ Code licence: see [`LICENSE`](LICENSE) (covers the code/notebooks, not the bundl
 | 26 | Water | Total-column water vapour as an orthographic globe | EP |
 | 27 | New tool | Storm Ciarán (2 Nov 2023), live from ARCO-ERA5 cloud-native Zarr | EP |
 | 28 | Senses: Feeling | The day the UK hit 40 °C, as UTCI "feels-like" (ERA5-HEAT) | EP |
+| 28 | Senses: Feeling | How many layers, Beethoven? Wind chill across Germany from IFS 9 km, and Bonn's Beethoven dressed for it (AI-generated images, prompts in the notebook) | EP |
 
 ⬦ = needs **approved (upgraded) DestinE data access** (not just a basic account); every other day
 runs on fully open data. See [`PLAN.md`](PLAN.md) for the brief on each day.
